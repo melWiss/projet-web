@@ -1,0 +1,167 @@
+/*
+body
+Donner le code du style suivant
+• Police : "Times New Roman", Times, serif;
+• Taille : 13px;
+• Couleur : #6b6c5a
+• Hauteur de ligne : 22px
+• Couleur d’arrière plan : #e6e6d9
+• Alignement du texte : left
+• Marge extérieur: 0px
+*/
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    size: 13px;
+    color: #6b6c5a;
+    line-height: 22px;
+    background-color: #e6e6d9;
+    text-align: left;
+    margin: 0px 0px 0px 0px;
+}
+
+
+/*
+entete
+Donner le code du style suivant :
+• Couleur d’arrière plan : #c7c8bc
+
+• Alignement du texte : center
+• Hauteur : 68px
+• Position : relative*/
+
+#entete {
+    background-color: #c7c8bc;
+    text-align: center;
+    height: 68px;
+    position: relative;
+}
+
+
+/*
+navigation
+Donner le code du style suivant :
+• Taille : 9px
+• Hauteur de ligne : 16px
+• Couleur : white
+• Couleur d’arrière plan : #6b6c5a;
+• Espacement des lettres : 6px
+• Alignement du texte : centre
+• Hauteur : 16px
+• Marge extérieur bas : 15px*/
+
+#navigation {
+    size: 9px;
+    line-height: 16px;
+    color: white;
+    background-color: #6b6c5a;
+    letter-spacing: 6px;
+    text-align: center;
+    height: 16px;
+    margin-bottom: 15px;
+}
+
+
+/*
+logo
+Donner le code du style suivant :
+• Hauteur : 95px
+• Marge : 0 10 10 18%*/
+
+#logo {
+    height: 95px;
+    margin: 0 10px 10px 18%;
+}
+
+
+/*
+gauche
+1. Ecrire le code de la classe : .element-de-menu, Affecter cette classe pour chaque
+élément du menu
+• Couleur : #758642
+• Marge extérieur : Haut : 20px Gauche : 20px
+• Bordure :
+o Style bas : pointillé
+o Largeur bas : 1px
+o Couleur Bas : #758642
+2. Donner le code du style gauche
+• Alignement du texte : droite
+• Largeur : 20%
+• Flottante : gauche*/
+
+.element-de-menu {
+    color: #758642;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-bottom-style: dotted;
+    border-bottom-width: 1px;
+    border-bottom-color: #758642;
+}
+
+#gauche {
+    text-align: right;
+    width: 20%;
+    float: left;
+}
+
+
+/*
+milieu
+Donner le code du style suivant
+• Largeur : 50%
+• Flottante : gauche
+• Espace entre la bordure (gauche) et le contenu : 36px*/
+
+#milieu {
+    width: 50%;
+    float: left;
+    padding-left: 36px;
+}
+
+
+/*
+droite
+Donner le code du style suivant :
+
+• Taille : 10px
+• Style : italique
+• Hauteur de ligne : 20px
+• Largeur : 15%
+• Flottante : gauche
+• Espace entre la bordure (gauche) et le contenu : 3%*/
+
+#droite {
+    font-size: 10px;
+    font-style: italic;
+    line-height: 20px;
+    width: 15%;
+    float: left;
+    padding-left: 3%;
+}
+
+
+/*
+bas
+Donner le code du style suivant :
+• Taille : 9px
+• Hauteur de ligne 16px
+• Couleur : white
+• Couleur d’arrière plan : #6b6c5a
+• Espacement des lettres : 6px
+• Alignement du texte : centre
+• Hauteur : 16
+• Effacer : gauche*/
+
+#pied-de-page {
+    font-size: 9px;
+    line-height: 16px;
+    color: white;
+    background-color: #6b6c5a;
+    letter-spacing: 6px;
+    text-align: center;
+    height: 16px;
+    float: left;
+}
+
+
+/*CRÉE PAR OUSSAMA MAATALLAH 2TIC-EPI*/

@@ -1,0 +1,110 @@
+/*
+Créer un fichier style.css qui contiendra tous les styles définis. Faites lier ce fichier avec la
+page web.
+Définir dans ce fichier un identifiant appelé navigation ayant les propriétés suivantes :
+
+- marge extérieure haut : 25px
+- marge extérieure gauche : 100px
+- aucun style de liste (les puces sont masquées)
+- police Verdana avec taille 12px gras centré et interligne 21px*/
+
+#navigation {
+    margin-top: 25px;
+    margin-left: 100px;
+    list-style-type: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 21px;
+}
+
+
+/*
+Créer pour la balise ul imbriquée sous l’identifiant navigation le style suivant:
+- Masquer les puces du sous-menu
+- Ajuster ses marges internes et externes à 0.
+- largeur : 150px
+- Faire disparaitre la liste (display : none)*/
+
+
+/*
+Créer pour les balises li qui se trouvent directement sous l’identifiant navigation le style
+suivant : flottement gauche et largeur : 150px. L’aperçu de la page devrait être :*/
+
+#navigation li ul {
+    list-style-type: none;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    width: 150px;
+    display: none;
+}
+
+#navigation li {
+    float: left;
+    width: 150px;
+}
+
+
+/*
+Créer pour les balises de lien hypertexte a qui sont imbriquées sous l’identifiant navigation le
+style suivant :
+- Pas de marge intérieure
+- Couleur noir
+- Pas de soulignement
+- Image arrière plan : (imagess/menu2.jpg)
+- Répétition du l’image arrière plan : horizontale (background-repeat: repeat-x;)
+- Bordure : trait plain, de largeur 1px et de couleur #999.
+- Marge extérieure droite : 5px.
+- Affichage en bloc (display : block) (utilisé pour que le lien s'étend sur la largueur de
+son conteneur <li> )
+L’aperçu du menu devient :*/
+
+#navigation li a {
+    padding: 0px 0px 0px 0px;
+    color: black;
+    text-decoration: none;
+    background-image: url("imagess/menu2.jpg");
+    background-repeat: repeat-x;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #999;
+    margin-right: 5px;
+    display: block;
+}
+
+#navigation li:hover ul {
+    display: block;
+}
+
+
+/*
+Couleur blanc
+- Image arrière-plan : (imagess/menu1.jpg)
+- Répétition du l’image : horizontale (repeat-x)
+- Bordure : trait plain, de largeur 1px et de couleur #09c.*/
+
+#navigation a:hover {
+    background-image: url("imagess/menu1.jpg");
+    background-repeat: repeat-x;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #09c;
+}
+
+#navigation .active {
+    /*
+    Couleur blanc
+- Image arrière plan : (imagess/menu1.jpg)
+- Répétition du l’image : horizontale (repeat-x)
+- Bordure : trait plain, de largeur 1px et de couleur #09c.*/
+    color: white;
+    background-image: url("imagess/menu1.jpg");
+    background-repeat: repeat-x;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #09c;
+}
+
+
+/*CRÉE PAR OUSSAMA MAATALLAH 2TIC-EPI*/
