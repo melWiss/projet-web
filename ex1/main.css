@@ -61,6 +61,18 @@ Donner le code du style suivant :
     margin-bottom: 15px;
 }
 
+#navigation a:link {
+    color: white;
+}
+
+#navigation a:active {
+    color: gold;
+}
+
+#navigation a:visited {
+    color: white;
+}
+
 
 /*
 logo
