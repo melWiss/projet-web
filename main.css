@@ -71,15 +71,3 @@ body {
     padding: 0 0 0 0;
     margin: 0 0 0 0;
 }
-
-#github a:visited {
-    color: red;
-}
-
-#github a:active {
-    color: gold;
-}
-
-#github p {
-    color: white;
-}
